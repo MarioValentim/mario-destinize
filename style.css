@@ -1,0 +1,135 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+
+:root{
+
+--Texto_escuro: #14183E;
+--Azul: #4372EB;
+--Cinza_claro: #9A9EA6;
+}
+body{
+    margin: 0%;
+    font-family: "Plus Jakarta Sans";
+}
+
+#menu_topo{
+    width: 100%;
+    height: 75px;
+    border: 1px solid var(--Cinza_claro);   
+    padding-left: 5%;
+    display: flex;
+}
+
+#cx_usuario{
+    width: 20%;
+    height: 50px;
+    margin-left: 60%;
+    margin-top: 10px;
+    display: flex;
+}
+.icone{
+    font-size: 48px;
+    color: var(--Azul);
+    align-items: center;
+    background-color:#aab7d6; 
+    border-radius: 100%;
+    
+}
+#conteudo_cx_usuario{
+    font-size: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+   
+}
+
+#banner{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+}
+
+#conteudo_banner{
+    height: 50%;
+    color: var(--Texto_escuro);
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+#conteudo_banner h1{
+    width: 100%;
+    text-align: left;
+    font-size: 70px;
+    font-weight: 1000;
+}
+
+#conteudo_banner p{
+    font-size: 17px;
+    color: rgb(78, 74, 97);
+    width: 80%;
+}
+
+.azul_claro{
+    color: var(--Azul);
+}
+
+.imagem_editada{
+    height: 95%;
+    width: 95%;
+    margin-top: 8%;
+}
+.btn{
+    background: var(--Azul);
+    width: 40%;
+    height:60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -15%;
+    margin-right: -20%;
+}
+.btn:hover{
+    background:#0d52ff;
+    transform: scale(1.1);
+}
+#botoes{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    
+}
+#botoes i{
+    font-size: 20px;
+    margin-top: 15px;
+    font-size: 50px;
+    color: var(--Azul);
+    margin-right: 5%;
+
+}
+#cx_play{
+    width: 40%;
+    display: flex;
+}
+    
+#botoes p{
+    font-weight: 1000;
+    color: dimgrey;
+    text-align: center;
+    margin-top: 12%;  
+} 
+#marcas{
+    display: flex;
+    
+}
+    
+
+
+    
+
+
+
